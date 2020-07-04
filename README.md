@@ -5,9 +5,9 @@ Android application for a shortest path finding experiment based on drones.
 Uses the A-Star algorithm to calculate routes under different conditions and compared the results.
 
 Three basic scenarios are considered, differ in the number of obstacles, and three different methods of shortest path finding, which are:
-- the shortest path in straight line ignoring the obstacles
-- the A-Star algorithm ignoring the cost in time to change direction
-- the A-Star algorithm considering the cost of changing direction
+* the shortest path in straight line ignoring the obstacles
+* the A-Star algorithm ignoring the cost in time to change direction
+* the A-Star algorithm considering the cost of changing direction
 
 The application is design to be able to adapt on a biggest future project, that involves centralized management based on cloud, to store and exchange information. For this, it uses Firebase to store the structural parameter table for each scenario, and to upload every calculated path as GPS coordinates (latitude and longitude). So, it is possible for any drone with the ability to access this information, to follow in real-time the uploaded path.
 
